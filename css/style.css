@@ -42,18 +42,22 @@ footer {
 
 .nav {
     background-color: #DAA520;
+    display: flex;
     justify-content: space-between;
+}
+
+.nav > div {
     padding: 5px;
     min-width: 20%;
+}
+
+.logo {
+    text-align: start;
 }
 
 .link {
     flex-grow: 1;
     text-align: center;
-}
-
-.logo {
-    text-align: start;
 }
 
 .login {
@@ -121,7 +125,7 @@ footer {
     padding: 1em 0;
 }
 
-.last-logo, .bottone {
+.bottom-footer > div {
     background-color: #FFB6C1;
     padding: 4px;
 }
